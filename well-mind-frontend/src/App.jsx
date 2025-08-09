@@ -332,15 +332,15 @@ const mockPsychologists = [
   {
     id: 3,
     name: 'Dr. Fatima Ali',
-    specialty: 'Study Stress',
-    rating: 4.7,
-    experience: '6 years',
+    specialty: 'psychotherapy',
+    rating: 5.0,
+    experience: '27 years',
     image: '/api/placeholder/150/150',
-    bio: 'Specialist in helping students deal with study stress and exams',
-    price: 180,
-    available: false,
-    location: 'Giza',
-    languages: ['Arabic', 'French'],
+    bio: 'Consultant in Psychotherapy, Speech Pathology and Addiction Treatment',
+    price: 400,
+    available: true,
+    location: 'Cairo',
+    languages: ['Arabic', 'English'],
     sessionTypes: ['Online']
   },
   {
@@ -352,7 +352,7 @@ const mockPsychologists = [
     image: '/api/placeholder/150/150',
     bio: 'Psychologist specialized in treating psychological trauma and PTSD',
     price: 300,
-    available: true,
+    available: false,
     location: 'Cairo',
     languages: ['Arabic', 'English'],
     sessionTypes: ['In-person', 'Online']
@@ -467,7 +467,7 @@ const LoginPage = ({ onLogin, switchToRegister }) => {
     
     setTimeout(() => {
       onLogin({
-        name: 'Ahmed Mohammed',
+        name: 'Basel Hossam',
         email: formData.email,
         id: 1
       })
