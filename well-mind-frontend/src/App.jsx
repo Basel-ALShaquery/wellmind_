@@ -124,7 +124,7 @@ const realArticles = [
     readTime: '5 minutes',
     author: 'Dr. Ahmed Mahmoud',
     excerpt: 'Learn simple techniques to control anxiety in daily life and how to deal with stressful situations in a healthy way...',
-    url: 'https://www.mayoclinic.org/diseases-conditions/anxiety/symptoms-causes/syc-20350961',
+    url: 'https://www.mayoclinic.org/diseases-conditions/anxiety/in-depth/anxiety/art-20046282',
     image: '/api/placeholder/300/200'
   },
   {
@@ -134,7 +134,7 @@ const realArticles = [
     readTime: '7 minutes',
     author: 'Dr. Mariam Salem',
     excerpt: 'Discover how sleep affects your mental state and how to improve sleep quality for better rest...',
-    url: 'https://www.sleepfoundation.org/how-sleep-works/why-do-we-need-sleep',
+    url: 'https://www.sleepfoundation.org/mental-health',
     image: '/api/placeholder/300/200'
   },
   {
@@ -144,7 +144,7 @@ const realArticles = [
     readTime: '10 minutes',
     author: 'Dr. Khaled Abdullah',
     excerpt: 'A comprehensive guide to starting meditation practice and its benefits for mental health with practical exercises...',
-    url: 'https://www.headspace.com/meditation/meditation-for-beginners',
+    url: 'https://www.mindful.org/how-to-meditate/',
     image: '/api/placeholder/300/200'
   },
   {
@@ -154,7 +154,27 @@ const realArticles = [
     readTime: '8 minutes',
     author: 'Dr. Sarah Ahmed',
     excerpt: 'Effective strategies for dealing with work stress and achieving work-life balance...',
-    url: 'https://www.apa.org/topics/stress/workplace',
+    url: 'https://www.helpguide.org/articles/stress/stress-management.htm',
+    image: '/api/placeholder/300/200'
+  },
+  {
+    id: 5,
+    title: 'Understanding Depression',
+    category: 'Depression',
+    readTime: '12 minutes',
+    author: 'Dr. Hassan Ali',
+    excerpt: 'A comprehensive guide to understanding depression symptoms, causes, and treatment options...',
+    url: 'https://www.nimh.nih.gov/health/topics/depression',
+    image: '/api/placeholder/300/200'
+  },
+  {
+    id: 6,
+    title: 'Building Resilience',
+    category: 'Self-Development',
+    readTime: '6 minutes',
+    author: 'Dr. Fatima Hassan',
+    excerpt: 'Learn how to build mental resilience and bounce back from life\'s challenges stronger...',
+    url: 'https://www.apa.org/topics/resilience',
     image: '/api/placeholder/300/200'
   }
 ]
@@ -167,7 +187,7 @@ const realPodcasts = [
     duration: '25:30',
     category: 'Education',
     description: 'Practical tips for students to deal with exam period stress and relaxation techniques',
-    url: 'https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk',
+    url: 'https://open.spotify.com/show/2MAi0BvDc6GTFvKFPXnkCL',
     plays: 1250
   },
   {
@@ -187,7 +207,7 @@ const realPodcasts = [
     duration: '32:15',
     category: 'Relationships',
     description: 'Foundations of building healthy and balanced relationships with others and resolving conflicts positively',
-    url: 'https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vcmVsYXRpb25zaGlwcw',
+    url: 'https://www.therapyforblackgirls.com/podcast/',
     plays: 1800
   },
   {
@@ -197,8 +217,28 @@ const realPodcasts = [
     duration: '28:20',
     category: 'Mental Health',
     description: 'How to deal with psychological trauma and recover from it in a healthy and safe way',
-    url: 'https://podcasts.google.com/feed/trauma-recovery',
+    url: 'https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vdGhlLW1lbnRhbC1pbGxuZXNzLWhhcHB5LWhvdXI',
     plays: 1650
+  },
+  {
+    id: 5,
+    title: 'Mindfulness and Daily Life',
+    host: 'Dr. Amira Farouk',
+    duration: '22:10',
+    category: 'Mindfulness',
+    description: 'How to integrate mindfulness practices into your daily routine for better mental health',
+    url: 'https://www.tenpercent.com/podcast',
+    plays: 1920
+  },
+  {
+    id: 6,
+    title: 'Overcoming Social Anxiety',
+    host: 'Dr. Youssef Ahmed',
+    duration: '35:45',
+    category: 'Anxiety',
+    description: 'Strategies and techniques to overcome social anxiety and build social confidence',
+    url: 'https://podcasts.apple.com/us/podcast/the-anxiety-coaches-podcast/id1000000001',
+    plays: 1430
   }
 ]
 
@@ -210,7 +250,7 @@ const realTests = [
     duration: '5-10 minutes',
     questions: 9,
     category: 'Depression',
-    url: 'https://www.phqscreeners.com/select-screener'
+    url: 'https://www.mdcalc.com/calc/1725/phq9-patient-health-questionnaire9'
   },
   {
     id: 2,
@@ -219,7 +259,7 @@ const realTests = [
     duration: '3-5 minutes',
     questions: 7,
     category: 'Anxiety',
-    url: 'https://www.phqscreeners.com/select-screener'
+    url: 'https://www.mdcalc.com/calc/1727/gad7-general-anxiety-disorder7'
   },
   {
     id: 3,
@@ -238,6 +278,24 @@ const realTests = [
     questions: 10,
     category: 'Self-Esteem',
     url: 'https://psychology-tools.com/test/rosenberg-self-esteem-scale'
+  },
+  {
+    id: 5,
+    title: 'Burnout Assessment',
+    description: 'Evaluate your level of work-related burnout and exhaustion',
+    duration: '7-10 minutes',
+    questions: 15,
+    category: 'Burnout',
+    url: 'https://www.mindtools.com/pages/article/newTCS_08.htm'
+  },
+  {
+    id: 6,
+    title: 'Sleep Quality Index',
+    description: 'Assess your sleep quality and identify potential sleep disorders',
+    duration: '5-7 minutes',
+    questions: 12,
+    category: 'Sleep',
+    url: 'https://www.sleepfoundation.org/how-sleep-works/sleep-quality-assessment'
   }
 ]
 
@@ -750,38 +808,75 @@ const Dashboard = ({ user, onLogout }) => {
             <Heart className="h-5 w-5 text-red-500" />
             How are you feeling today?
           </CardTitle>
+          <CardDescription>
+            Take a moment to reflect on your current emotional state
+          </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-5 gap-4 mb-4">
+          <div className="grid grid-cols-5 gap-3 mb-6">
             {Object.entries(moodEmojis).map(([value, { emoji, label, color }]) => (
               <button
                 key={value}
                 onClick={() => setSelectedMood(parseInt(value))}
-                className={`mood-button p-4 rounded-lg border-2 transition-all duration-300 ${
+                className={`mood-button p-4 rounded-xl border-2 transition-all duration-300 flex flex-col items-center justify-center min-h-[100px] ${
                   selectedMood === parseInt(value)
-                    ? 'selected border-blue-500 bg-blue-50 scale-105'
-                    : 'border-gray-200 hover:border-gray-300 hover:scale-105'
+                    ? 'selected border-blue-500 bg-gradient-to-br from-blue-50 to-purple-50 scale-105 shadow-lg'
+                    : 'border-gray-200 hover:border-gray-300 hover:scale-105 hover:shadow-md bg-white'
                 }`}
               >
-                <div className="text-3xl mb-2">{emoji}</div>
-                <div className={`text-sm font-medium ${color}`}>{label}</div>
+                <div className="text-4xl mb-2 transition-transform duration-200">{emoji}</div>
+                <div className={`text-xs font-medium ${color} text-center`}>{label}</div>
               </button>
             ))}
           </div>
           
-          <Textarea
-            placeholder="Add a note about your day (optional)"
-            value={moodNote}
-            onChange={(e) => setMoodNote(e.target.value)}
-            className="mb-4"
-          />
+          <div className="space-y-4">
+            <div>
+              <Label htmlFor="mood-note" className="text-sm font-medium text-gray-700">
+                What's on your mind? (Optional)
+              </Label>
+              <Textarea
+                id="mood-note"
+                placeholder="Describe what happened today, how you're feeling, or what's affecting your mood..."
+                value={moodNote}
+                onChange={(e) => setMoodNote(e.target.value)}
+                className="mt-2 min-h-[100px] resize-none"
+                maxLength={500}
+              />
+              <div className="text-xs text-gray-500 mt-1">
+                {moodNote.length}/500 characters
+              </div>
+            </div>
+            
+            <div className="bg-gray-50 p-4 rounded-lg">
+              <h4 className="text-sm font-medium text-gray-700 mb-2">Quick mood factors (optional):</h4>
+              <div className="flex flex-wrap gap-2">
+                {['Work', 'Family', 'Health', 'Sleep', 'Exercise', 'Social', 'Weather', 'Stress'].map(factor => (
+                  <button
+                    key={factor}
+                    onClick={() => {
+                      const currentNote = moodNote
+                      const factorTag = `#${factor.toLowerCase()}`
+                      if (!currentNote.includes(factorTag)) {
+                        setMoodNote(prev => prev ? `${prev} ${factorTag}` : factorTag)
+                      }
+                    }}
+                    className="px-3 py-1 text-xs bg-white border border-gray-200 rounded-full hover:bg-gray-100 transition-colors"
+                  >
+                    #{factor.toLowerCase()}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
           
           <Button 
             onClick={handleMoodSubmit}
             disabled={!selectedMood}
-            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 mt-6"
           >
-            Save Mood
+            <Heart className="h-4 w-4 mr-2" />
+            Save Today's Mood
           </Button>
         </CardContent>
       </Card>
