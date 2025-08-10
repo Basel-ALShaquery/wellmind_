@@ -124,7 +124,7 @@ const realArticles = [
     readTime: '5 minutes',
     author: 'Dr. Ahmed Mahmoud',
     excerpt: 'Learn simple techniques to control anxiety in daily life and how to deal with stressful situations in a healthy way...',
-    url: 'https://www.mayoclinic.org/diseases-conditions/anxiety/in-depth/anxiety/art-20046282',
+    url: 'https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/feelings-and-symptoms/anxiety-fear-panic/',
     image: '/api/placeholder/300/200'
   },
   {
@@ -197,7 +197,7 @@ const realPodcasts = [
     duration: '18:45',
     category: 'Self Development',
     description: 'How to build self-confidence and overcome inner doubts and develop personality',
-    url: 'https://podcasts.apple.com/us/podcast/the-confidence-podcast/id1000000000',
+    url: 'https://open.spotify.com/show/5M5D6lihTbDs8aRnb6xazq',
     plays: 2100
   },
   {
@@ -207,7 +207,7 @@ const realPodcasts = [
     duration: '32:15',
     category: 'Relationships',
     description: 'Foundations of building healthy and balanced relationships with others and resolving conflicts positively',
-    url: 'https://www.therapyforblackgirls.com/podcast/',
+    url: 'https://open.spotify.com/show/1mVcuBZOfyIrpfpY6dub8P',
     plays: 1800
   },
   {
@@ -237,7 +237,7 @@ const realPodcasts = [
     duration: '35:45',
     category: 'Anxiety',
     description: 'Strategies and techniques to overcome social anxiety and build social confidence',
-    url: 'https://podcasts.apple.com/us/podcast/the-anxiety-coaches-podcast/id1000000001',
+    url: 'https://open.spotify.com/show/7fxTH5HGWLXtAoSALwrgVb',
     plays: 1430
   }
 ]
@@ -316,7 +316,7 @@ const mockPsychologists = [
     sessionTypes: ['In-person', 'Online']
   },
   {
-    id: 2,
+    id: 3,
     name: 'Dr. Mohammed Hassan',
     specialty: 'Social Relationships',
     rating: 4.8,
@@ -330,7 +330,7 @@ const mockPsychologists = [
     sessionTypes: ['In-person', 'Online']
   },
   {
-    id: 3,
+    id: 2,
     name: 'Dr. Fatima Ali',
     specialty: 'psychotherapy',
     rating: 5.0,
